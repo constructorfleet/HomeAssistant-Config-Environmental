@@ -1,0 +1,4 @@
+platform: openweathermap
+name: Open Weather Map 5 Day
+api_key: !secret open_weather_map_key
+mode: freedaily

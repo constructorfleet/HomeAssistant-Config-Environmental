@@ -1,0 +1,4 @@
+homeassistant: !include core.yaml
+
+weather: !include_dir_list weather
+sensor: !include_dir_list sensors

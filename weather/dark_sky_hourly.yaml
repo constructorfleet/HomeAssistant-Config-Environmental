@@ -1,0 +1,4 @@
+platform: darksky
+name: Dark Sky Hourly
+api_key: !secret darksky_key
+mode: hourly
