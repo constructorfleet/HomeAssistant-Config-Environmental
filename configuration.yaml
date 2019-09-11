@@ -1,5 +1,10 @@
 homeassistant: !include core.yaml
 
+http:
+  server_port: !secret environmental_server_port
+
+frontend:
+
 sun:
 weather: !include_dir_list weather
 sensor: !include_dir_list sensors
