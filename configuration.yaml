@@ -6,9 +6,6 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Environmental
 
-http:
-  server_port: !secret environmental_server_port
-
 frontend:
 
 sun:
