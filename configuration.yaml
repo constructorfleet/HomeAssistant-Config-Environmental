@@ -10,6 +10,8 @@ http:
 
 frontend:
 
+view_event:
+
 sun:
 moon:
 weather: !include_dir_list weather
