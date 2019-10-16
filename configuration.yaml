@@ -20,6 +20,6 @@ config:
 view_event:
 
 sun:
-moon:
+
 weather: !include_dir_list weather
 sensor: !include_dir_list sensors
