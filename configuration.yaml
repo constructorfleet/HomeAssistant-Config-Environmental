@@ -15,7 +15,7 @@ homeassistant:
     - type: homeassistant
 
 view_event:
-  instance_name: environmental
+  name: environmental
   components: []
 
 http:
