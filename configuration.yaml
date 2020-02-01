@@ -30,3 +30,6 @@ sun:
 
 weather: !include_dir_list weather
 sensor: !include_dir_list sensors
+
+mqtt: !include mqtt.yaml
+mqtteventstream: !include eventstream.yaml
