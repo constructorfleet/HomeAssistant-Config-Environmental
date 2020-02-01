@@ -1,2 +1,2 @@
 broker: mqtt
-client_id: hubs
+client_id: environment
