@@ -4,3 +4,6 @@
 [submodule "custom_components/nws_warnings"]
 	path = custom_components/nws_warnings
 	url = https://github.com/constructorfleet/HomeAssistant-Component-NWSWarnings.git
+[submodule "custom_components/mqtteventstream"]
+	path = custom_components/mqtteventstream
+	url = https://github.com/constructorfleet/HomeAssistant-Component-MQTTEventStream.git
