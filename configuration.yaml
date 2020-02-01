@@ -14,9 +14,9 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event:
-  name: environmental
-  components: []
+# view_event:
+#   name: environmental
+#   components: []
 
 http:
   base_url: https://automation.prettybaked.com
