@@ -19,8 +19,8 @@ homeassistant:
 #   components: []
 
 http:
-  base_url: https://automation.prettybaked.com
-  server_port: !secret environmental_server_public_port
+#  base_url: https://automation.prettybaked.com
+#  server_port: !secret environmental_server_public_port
   
 frontend:
 
@@ -32,5 +32,5 @@ weather: !include_dir_list weather
 sensor: !include_dir_list sensors
 
 mqtt: !include mqtt.yaml
-# mqtteventstream: !include eventstream.yaml
-mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
+mqtteventstream: !include eventstream.yaml
+# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
