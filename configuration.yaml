@@ -19,8 +19,6 @@ homeassistant:
 #   components: []
 
 http:
-  base_url: http://environment.constructorfleet.iot
-#  server_port: !secret environmental_server_public_port
   
 frontend:
 
