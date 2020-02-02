@@ -19,6 +19,7 @@ homeassistant:
 #   components: []
 
 http:
+  base_url: http://appliances.constructorfleet.iot
   
 frontend:
 
