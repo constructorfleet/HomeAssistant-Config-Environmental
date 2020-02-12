@@ -19,7 +19,7 @@ homeassistant:
 #   components: []
 
 http:
-  base_url: http://appliances.constructorfleet.iot
+  base_url: https://environment.automation.home.prettybaked.com
   
 frontend:
 
