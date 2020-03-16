@@ -14,9 +14,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-# view_event:
-#   name: environmental
-#   components: []
+view_event: !include view_event.yaml
 
 http:
   base_url: https://environment.automation.home.prettybaked.com
@@ -32,4 +30,3 @@ sensor: !include_dir_list sensors
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
-# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
