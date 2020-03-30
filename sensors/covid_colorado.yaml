@@ -1,0 +1,13 @@
+platform: template
+sensors:
+  co_coronavirus_confirmed:
+    friendly_name: Colorado Coronavirus confirmed
+    value_template: '{{ states.sensor.colorado_coronavirus_stats.attributes["positive"] }}'
+
+  co_coronavirus_deaths:
+    friendly_name: Colorado Coronavirus deaths
+    value_template: '{{ states.sensor.colorado_coronavirus_stats.attributes["death"] }}'
+
+  co_coronavirus_hospitalized:
+    friendly_name: Colorado Coronavirus hospitalized
+    value_template: '{{ states.sensor.colorado_coronavirus_stats.attributes["hospitalized"] }}'

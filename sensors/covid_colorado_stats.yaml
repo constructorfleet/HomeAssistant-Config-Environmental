@@ -1,0 +1,13 @@
+platform: rest
+name: Colorado Coronavirus Stats
+resource: https://covidtracking.com/api/states?state=CO
+json_attributes:
+  - positive
+  - negative
+  - pending
+  - hospitalized
+  - death
+  - total
+  - lastUpdateEt
+value_template: '{{ value_json.state }}'
+scan_interval: 360
