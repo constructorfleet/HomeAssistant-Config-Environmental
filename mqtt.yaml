@@ -10,7 +10,6 @@ birth_message:
       "event_data": "environment"
     }
 will_message:
-  birth_message:
   topic: events/slaves/environment/instance_state
   qos: 1
   retain: true
