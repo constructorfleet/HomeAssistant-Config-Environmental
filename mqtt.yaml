@@ -1,4 +1,5 @@
 broker: automation_mqtt
+port: 1883
 client_id: environment
 birth_message:
   topic: events/slaves/environment/instance_state
